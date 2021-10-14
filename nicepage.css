@@ -34250,11 +34250,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 212px;
+  }
+
   .u-header .u-image-1 {
     width: 119px;
     height: 119px;
-    margin-right: auto;
-    margin-left: -15px;
+    margin: -73px auto 60px 0;
   }
 }
 .u-footer .u-sheet-1 {

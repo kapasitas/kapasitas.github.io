@@ -203,7 +203,8 @@
     width: 340px;
   }
 }.u-section-3 {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/Borobudur--ISTOCK.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -213,6 +214,7 @@
 .u-section-3 .u-layout-wrap-1 {
   margin-top: 1px;
   margin-bottom: 1px;
+  margin-left: auto;
 }
 
 .u-section-3 .u-layout-cell-1 {
@@ -220,12 +222,22 @@
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 23px 0 12px;
+  padding: 30px 50px 30px 30px;
+}
+
+.u-section-3 .u-image-1 {
+  height: 237px;
+  margin-top: 61px;
+  margin-bottom: 0;
+  margin-left: auto;
+  box-shadow: 18px 24px 40px 0 rgba(0,0,0,1);
 }
 
 .u-section-3 .u-text-1 {
-  line-height: 2;
-  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 9px 0 0 auto;
 }
 
 .u-section-3 .u-layout-cell-2 {
@@ -233,25 +245,12 @@
 }
 
 .u-section-3 .u-container-layout-2 {
-  padding: 30px 50px 30px 30px;
+  padding: 23px 0 12px;
 }
 
 .u-section-3 .u-text-2 {
-  font-weight: normal;
-  margin: 20px 0 0;
-}
-
-.u-section-3 .u-image-1 {
-  height: 237px;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.u-section-3 .u-text-3 {
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin: 9px 0 0;
+  line-height: 2;
+  margin: 0 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -259,16 +258,21 @@
     min-height: 550px;
   }
 
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 505px;
+  .u-section-3 .u-layout-wrap-1 {
+    margin-left: initial;
   }
 
-  .u-section-3 .u-layout-cell-2 {
+  .u-section-3 .u-layout-cell-1 {
     min-height: 505px;
   }
 
   .u-section-3 .u-image-1 {
     height: 189px;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 505px;
   }
 }
 
@@ -281,20 +285,21 @@
     min-height: 100px;
   }
 
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 100px;
-  }
-
-  .u-section-3 .u-container-layout-2 {
+  .u-section-3 .u-container-layout-1 {
     padding-right: 0;
   }
 
   .u-section-3 .u-image-1 {
     height: 145px;
+    margin-left: initial;
   }
 
-  .u-section-3 .u-text-3 {
+  .u-section-3 .u-text-1 {
     font-size: 2.75rem;
+  }
+
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 100px;
   }
 }
 
@@ -303,29 +308,27 @@
     min-height: 282px;
   }
 
-  .u-section-3 .u-container-layout-2 {
+  .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
   }
 
   .u-section-3 .u-image-1 {
     height: 251px;
+    margin-left: initial;
   }
 
-  .u-section-3 .u-text-3 {
+  .u-section-3 .u-text-1 {
     font-size: 3.75rem;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-text-2 {
-    font-weight: 700;
-  }
-
   .u-section-3 .u-image-1 {
     height: 154px;
+    margin-left: initial;
   }
 
-  .u-section-3 .u-text-3 {
+  .u-section-3 .u-text-1 {
     font-size: 3rem;
   }
 }.u-section-4 {
@@ -730,7 +733,7 @@
     min-height: 351px;
   }
 }.u-section-7 {
-  background-image: linear-gradient(0deg, rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url("np://user.desktop.nicepage.com/Site_86287036/images/prambanan.jpg?rand=13e9");
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.65), rgba(255,255,255,0.65)), url("images/prambanan.jpg");
   background-position: 50% 50%;
 }
 
@@ -755,6 +758,7 @@
 .u-section-7 .u-image-1 {
   width: 300px;
   height: 150px;
+  box-shadow: 13px 15px 40px 0px rgba(0,0,0,1);
   margin: 22px auto 0;
 }
 
